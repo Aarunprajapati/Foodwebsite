@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: "Heebo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    background-color: #F1F8FF;
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); */
+}
+:root {
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+}
+.row {   
+    display: flex;
+    flex-wrap: wrap;   
+}
+.footer{
+    margin-top: 100px;
+}
+.bg-dark {
+    background-color: #0F172B !important;
+}
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+.ff-secondary {
+    font-family: 'Pacifico', cursive;
+}
+.text-primary {
+    color: #FEA116 !important;
+}
+.text-start {
+    text-align: left !important;
+}
+.fw-normal {
+    font-weight: 400 !important;
+}
+.btn-link {
+    font-weight: 400;
+    
+    text-decoration: none;
+}
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+.footer .btn.btn-social i{
+    color: #fff;
+}
+.footer .btn.btn-social:hover i{
+    color: #FEA116;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.border-primary {
+    border-color: #FEA116 !important;
+}
+.btn.btn-primary, .btn.btn-secondary {
+    color: #FFFFFF;
+}
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.btn-primary {
+    
+    background-color: #FEA116 !important;
+    border-color: #FEA116 !important;
+}
+.btn-primary:hover {
+
+    background-color: #feaf39;
+    border-color: #feaa2d;
+}
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+.footer .copyright a {
+    color: var(--light);
+}
+/* .icon:hover {
+    color:  #FEA116 !important;
+} */
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+a {
+  
+    text-decoration: none;
+}
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+.back-to-top i::before{
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+}
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+    width: 48px;
+    height: 48px;
+}
+.btn.btn-primary, .btn.btn-secondary {
+    color: #fff;
+}
+.btn-lg-square i{
+    position: absolute;
+}
+.btn-lg-square i::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+}

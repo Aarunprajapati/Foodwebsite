@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Heebo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    background-color: #F1F8FF;
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); */
+}
+.primary {
+    color: #FEA116 ;
+}
+h5{
+    font-weight:bold;
+}
+
+.row {
+  
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+.service-item:hover {
+    background: #FEA116;
+}
+
+
+.service-item:hover * {
+    color: #fff ;
+}
+h5{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Nunito",sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+}

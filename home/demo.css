@@ -1,0 +1,6 @@
+.nav_links a.active{
+    color: orange !important;
+}
+.nav_links a:hover{
+    color: orange !important;
+}
